@@ -1,5 +1,6 @@
 import Navbar from "./Navbar"
 import "../index.css"
+import bgImage from "/src/assets/magicpattern-grid-pattern-1748598067126.png"
 
 const Homepage = () => {
     return(
@@ -9,7 +10,7 @@ const Homepage = () => {
   className="hero min-h-screen"
   style={{
       backgroundImage:
-      "url('/src/assets/magicpattern-grid-pattern-1748598067126.png')",
+      `url(${bgImage})`,
     }}>
   <div className="hero-overlay"></div>
   <div className="hero-content text-neutral-content text-center">
