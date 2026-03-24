@@ -20,7 +20,7 @@ jobs:
           username: azureuser
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd /home/ubuntu/github_repos/React-frontend/
+            cd /home/ubuntu/github_repos/React-frontend
             git pull
             docker compose up -d --build
 ~
