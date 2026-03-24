@@ -24,8 +24,8 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    {/* <a className="btn">SignUp</a> */}
-    <a className="btn btn-primary">Login</a>
+    {/* <a className="btn">Sign up</a> */}
+    <a className="btn btn-primary">Sign in</a>
   </div>
 </div>
     )
