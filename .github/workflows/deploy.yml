@@ -23,4 +23,3 @@ jobs:
             cd /home/ubuntu/github_repos/React-frontend
             git pull
             docker compose up -d --build
-~
