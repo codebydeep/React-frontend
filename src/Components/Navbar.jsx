@@ -21,6 +21,7 @@ const Navbar = () => {
       <li><a>Playlists</a></li>
         <li><a>Problems</a></li>
         <li><a>Profile</a></li>
+        <li><a>About Us</a></li>
     </ul>
   </div>
   <div className="navbar-end">
